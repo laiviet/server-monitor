@@ -1,0 +1,20 @@
+{
+  "server": [
+    {
+      "name": "LEGENDARY",
+      "hostname": "1.2.3.4",
+      "username": "admin",
+      "private-key": "/home/admin/.ssh/id_rsa"
+    }
+  ],
+  "view": [
+    {
+      "command": "top -bn 1",
+      "lines": 20
+    },
+    {
+      "command": "nvidia-smi",
+      "lines": 30
+    }
+  ]
+}
